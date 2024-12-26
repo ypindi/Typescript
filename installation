@@ -1,0 +1,36 @@
+npm i -g typescript
+i = install
+g = global in all folders typescript can be executed.
+
+tsc -v
+typescript compiler version.
+
+///////////////////////////////
+///////////////////////////////
+Creating a tsc config file because by default, tsc is compiling ts to ES5 flavour of JS.
+let a:number = 25; is giving: var a = 25;
+But we should not use var much.
+
+PS D:\Yashwanth\HTW_Berlin\Self_Learnings\Typescript>
+PS D:\Yashwanth\HTW_Berlin\Self_Learnings\Typescript>
+PS D:\Yashwanth\HTW_Berlin\Self_Learnings\Typescript> tsc --init
+
+Created a new tsconfig.json with:  
+ TS
+target: es2016
+module: commonjs
+strict: true
+esModuleInterop: true
+skipLibCheck: true
+forceConsistentCasingInFileNames: true
+
+You can learn more at https://aka.ms/tsconfig
+PS D:\Yashwanth\HTW_Berlin\Self_Learnings\Typescript>
+
+/////////////
+////////////
+////////////
+
+After I made the changes in tsconfig.json,
+I can just run tsc on the cmd window. And it will generate the compiled files in dist folder
+or distributable folder.

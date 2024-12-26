@@ -1,0 +1,12 @@
+Advantages:
+
+1. Static Typing: variable type we know at compile time or coding time.
+2. Code completion/ INTELLISENSE.
+3. Auto Documentation
+4. Refactoring
+5. Shorthand notations.
+6. More features
+
+Disadvantages:
+
+1. Compilation: first give our ts code to compiler and convert to JS to run it. This process is called transpilation.
